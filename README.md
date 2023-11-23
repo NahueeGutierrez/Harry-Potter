@@ -9,3 +9,7 @@ Catálogo de Hechizos:
 
 Los usuarios pueden sumergirse en el emocionante mundo de la magia explorando un catálogo completo de hechizos.
 Detalles como el nombre del hechizo y su descripción se obtienen de manera dinámica mediante una API especializada en hechizos
+
+# IMPORTANTE
+
+Cabe recordar que no estan agregados los modulos de react.
