@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Detalles';
+    src: url('/Users/nahuelgutierrez/Desktop/Proyectos/Harry Potter/hp/src/fonts/detalles/detalles.TTF') format('truetype');  
+}
+
+@font-face{
+    font-family: 'Subtitulos';
+    src: url('/Users/nahuelgutierrez/Desktop/Proyectos/Harry Potter/hp/src/fonts/subtitulos/subtitulos.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Titulos';
+    src: url('/Users/nahuelgutierrez/Desktop/Proyectos/Harry Potter/hp/src/fonts/titulos/titulos.TTF') format('truetype');  
+}
+
+.nombre-personaje{
+    font-family: 'Titulos', sans-serif;
+    font-size: 50px;
+    color: #e1b43d;
+    line-height: 0;
+}
+.subtitulos{
+    font-family: 'Subtitulos', sans-serif;
+    font-size: 27px;
+    color: #e1b43d;
+    line-height: 0;
+}
+
+.detalles{
+    font-family: 'Detalles', sans-serif;
+    color: #000;
+    line-height: 0;
+    font-size: 20px;
+}
+
+.lista-detalles{
+    column-count: 1;
+    column-gap: 20px; 
+    padding: 0px;
+    margin-bottom: 10px;
+    break-inside: avoid-column;
+    background-color: #890001;
+    margin: 0;
+}
+
+.imagen{
+    position: absolute;
+    right: 5px;
+    bottom: 50px;
+}
+.volver-inicio{
+    font-family: 'Subtitulos', sans-serif;
+    font-size: 25px;
+    border: 1px solid #d8a40e;
+    background-color: #e1b43d;
+    padding: 8px;
+    display: block;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    color: #9f0000;
+    text-align: center;
+}
+.volver-inicio:hover{
+    background-color: #890001;
+    border: 1px solid #9f0000;
+    color: #d8a40e;
+}
