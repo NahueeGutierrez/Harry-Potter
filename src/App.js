@@ -81,9 +81,21 @@ const App=()=>{
         path="/spells/:spellName"
         element={<DetallesHechizo spells={spells}/>}
       />
+      <Route path='*' element={<Pagina404/>}/>
       </Routes>
     </Router>
   );
 };
+
+const Pagina404 = () => {
+  return (
+    <div>
+      <h1>404 - Página no encontrada</h1>
+      <p>Lo sentimos, la página que estás buscando no existe.</p>
+      <Link to="/">Volver al Inicio</Link>
+    </div>
+  );
+};
+
 
 export default App;
